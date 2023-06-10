@@ -27,16 +27,20 @@ End the program.
 #Ref no: 212222110016
 
 import pandas as pd
-df = pd.read_csv("nba.csv")
+df=pd.read_csv("/content/nba.csv")
 print(df.head(10))
 print(df.tail())
-print("column", len(df.axes[0]))
-print("rows", len(df.axes[1]))
+print("no of rows",df.axes[0])
+print("no of columns",df.axes[1])
+print("no of rows",len(df.axes[0]))
+print("no of columns",len(df.axes[1]))
 ```
 
 ## OUTPUT:
 
-![PYTH OUT UT 6](https://github.com/kancharlaNarmadha/Read-from-CSV/assets/119559316/4cfa9315-541b-4e91-b9f1-0ac0c8773305)
+![pyth last one](https://github.com/kancharlaNarmadha/Read-from-CSV/assets/119559316/129a3250-d5b2-467d-9c92-2a7ba97a9e4f)
+
+
 
 
 ## RESULT:
